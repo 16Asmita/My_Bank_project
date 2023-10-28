@@ -1,0 +1,114 @@
+* {
+  user-select: none;
+  text-decoration: none !important;
+}
+
+.navbar {
+  height: 74px;
+  background-image: linear-gradient(
+    to right,
+    #d1f1f4,
+    #93d2f2,
+    #88e7ef
+  ) !important;
+  border: rgb(181, 248, 248);
+}
+
+.navbar-brand span {
+  color: #ee5a4e !important;
+}
+
+.nav-link {
+  transition: 0.5s;
+  text-align: center;
+}
+
+.nav-link:hover {
+  color: #ee5a4e;
+  letter-spacing: 1px;
+}
+
+.bg-pink {
+  background: #ee5a4e;
+}
+
+.footer {
+  background-color: rgb(238, 90, 78);
+ 
+}
+
+.hero {
+  height: calc(100vh - 74px);
+  width: 100%;
+  background-image: url(https://hexaware.com/wp-content/uploads/2021/12/banking-services-featured.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.transaction{
+  width: 100%;
+  height: min-content;
+  background-image: url(https://hexaware.com/wp-content/uploads/2021/12/banking-services-featured.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.transaction-table{
+ height: 300px !important;
+ overflow: scroll;
+}
+.hero__content {
+  /* height: 70%; */
+  width: 70%;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(238, 90, 78, 0.37);
+  backdrop-filter: blur(9.5px);
+  -webkit-backdrop-filter: blur(9.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5rem;
+}
+
+.hero__content-text {
+  text-align: center;
+  padding: 0 3rem;
+}
+
+.btngroup {
+  display: flex;
+  justify-content: center;
+  column-gap: 10rem;
+  transition: 0.5s;
+}
+
+.btngroup button {
+  color: #fff;
+  transition: 0.5s;
+  background: #ee5a4e;
+}
+.btngroup button a{
+    color:#fff;
+}
+
+
+.btngroup button:hover {
+  transform: translateY(-5px);
+  box-shadow: 5px 5px 0 0 #fff;
+  background: #ee5a4e;
+  cursor: pointer;
+}
